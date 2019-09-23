@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView_nameFlim"
+        android:layout_width="141dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="22dp"
+        android:text="Name flim"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#00FF00"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/textView_countryName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView_nameFlim"
+        android:layout_marginStart="36dp"
+        android:text="Country Name"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+        android:id="@+id/textView_population"
+        android:layout_width="149dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView_nameFlim"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="22dp"
+        android:text="Population: ..."
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/colorAccent" />
+</RelativeLayout>
